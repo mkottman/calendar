@@ -32,6 +32,8 @@ local math_floor = math.floor
 
 module(...)
 
+heap = _M
+
 function heap:new(comparison, o)
   o = o or {}
   self.__index = self
